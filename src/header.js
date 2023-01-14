@@ -5,13 +5,16 @@ function header() {
   const header = document.createElement('header');
   const nav = document.createElement('nav');
 
-  const home = document.createElement('div');
+  const home = document.createElement('h2');
+  home.id = 'home';
   home.textContent = 'Home';
 
-  const menu = document.createElement('div');
+  const menu = document.createElement('h2');
+  menu.id = 'menu';
   menu.textContent = 'Menu';
 
-  const about = document.createElement('div');
+  const about = document.createElement('h2');
+  about.id = 'about';
   about.textContent = 'About';
 
   nav.appendChild(home);
