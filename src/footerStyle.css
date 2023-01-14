@@ -1,8 +1,8 @@
 footer {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-  padding: 16px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
