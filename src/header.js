@@ -18,7 +18,14 @@ function header() {
   nav.appendChild(menu);
   nav.appendChild(about);
 
+  const title = document.createElement('h1');
+  title.textContent = 'Restaurant Page';
+
+  const hr = document.createElement('hr');
+
+  header.appendChild(title);
   header.appendChild(nav);
+  header.appendChild(hr);
 
   parent.insertBefore(header, content);
 }

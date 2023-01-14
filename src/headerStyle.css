@@ -6,17 +6,30 @@
 nav {
   display: flex;
   gap: 12px;
-  padding: 32px;
   justify-content: center;
 }
 
 nav > div {
   padding: 12px 0 12px 0;
   width: 128px;
-  font-size: xx-large;
+  font-size: x-large;
+}
+
+header > h1 {
+  margin-top: 36px;
   font-family: 'HeaderFont';
+  font-size: 2.5rem;
+}
+
+header > hr {
+  width: 90%;
+  border-color: black;
+  border-radius: 1px;
 }
 
 header {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
