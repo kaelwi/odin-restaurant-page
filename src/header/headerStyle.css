@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'HeaderFont';
-  src: url('./admiration_pains.ttf');
+  src: url('../res/admiration_pains.ttf');
 }
 
 nav {
