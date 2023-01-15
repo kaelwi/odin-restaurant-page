@@ -20,9 +20,8 @@ if (nav !== null) {
   for (let div of nav.children) {
     div.addEventListener('click', () => {
       loadContent(div.id);
-    })
+    });
   } 
 } else {
   console.log('Nav element NULL!');
 }
-

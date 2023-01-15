@@ -51,8 +51,6 @@ function home(container) {
     'penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ' +
     'at commodo magna. Fusce porta tempus congue.';
   container.appendChild(outro);
-
-  content.appendChild(container);
 }
 
 function about(container) {
